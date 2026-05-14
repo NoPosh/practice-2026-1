@@ -1,7 +1,7 @@
 baseurl = "https://NoPosh.github.io/forestranger/"
 title = "Forest Ranger"
 theme = "hugo-profile"
-languageCode = "ru-ru"
+locale = "ru-ru"
 
 [params]
 	# Основные настройки
@@ -35,7 +35,7 @@ languageCode = "ru-ru"
 
 [[menu.main]]
  name = "Участники"
- url = "/participants"
+ url = "/members"
  weight = 2
 
 [[menu.main]]
@@ -45,5 +45,5 @@ languageCode = "ru-ru"
 
 [[menu.main]]
  name = "Ресурсы"
- url = "/reasources"
+ url = "/resources"
  weight = 4
