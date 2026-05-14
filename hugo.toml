@@ -1,3 +1,49 @@
 baseurl = "https://NoPosh.github.io/forestranger/"
-title = "Forest Ranger | Проектная практика"
+title = "Forest Ranger"
+theme = "hugo-profile"
+languageCode = "ru-ru"
 
+[params]
+	# Основные настройки
+	description = "Разработка мобильной игры Forest Ranger на Unity"
+
+	#Настройка главного экрана
+	[params.hero]
+	 enable = true
+	 title = "Forest Ranger"
+	 subtitle = "Мобильная игра про егеря в лесу"
+	 content = "Сайт-отчет по проектной практике"
+	 image = "img/hero.png"	#TODO: положить скриншот игры сюда
+
+
+	 # Кнопка на главном экране
+	 [params.hero.button]
+	  enable = true
+	  label = "More"
+	  link = "/posts"
+
+	# Соцсети
+	[[params.social]]
+	 icon = "github"
+	 link = "https://github.com/NoPosh/ForestRangerGame.git"
+
+# Настройка меню
+[[menu.main]]
+ name = "О проекте"
+ url = "/about"
+ weight = 1
+
+[[menu.main]]
+ name = "Участники"
+ url = "/participants"
+ weight = 2
+
+[[menu.main]]
+ name = "Журнал"
+ url = "/posts"
+ weight = 3
+
+[[menu.main]]
+ name = "Ресурсы"
+ url = "/reasources"
+ weight = 4

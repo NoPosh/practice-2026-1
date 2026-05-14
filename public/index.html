@@ -1,545 +1,683 @@
 <!DOCTYPE html>
-<html lang="ru-ru">
+<html lang="en">
+
 <head>
-	<meta name="generator" content="Hugo 0.161.1"><script src="/forestranger/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=forestranger/livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="generator" content="Hugo 0.161.1"><script src="/forestranger/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=forestranger/livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/forestranger/fav.png" type="image/gif">
 
-    
-    <script>
-    (function() {
-        
-        
-        const autoTheme = false;
-        if (autoTheme) {
-            document.documentElement.setAttribute('data-auto-theme', 'true');
-        }
 
-        const theme = localStorage.getItem('cleanwhite-theme') ||
-                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-theme', theme);
-    })();
-    </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
 
-    
-    <meta property="og:site_name" content="Forest Ranger | Проектная практика">
-    <meta property="og:type" content="article">
 
-    
-    <meta property="og:image" content="http://localhost:1313/forestranger//img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="http://localhost:1313/forestranger//img/home-bg-jeep.jpg" />
-    
+<link rel="stylesheet" href="/forestranger/css/font.css" media="all">
 
-    
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
-    
 
-    
-    <meta name="description" content="Сайт-отчет по проектной практике студента ИСИТ. Разработка игры Forest Ranger.">
-    <meta property="og:description" content="Сайт-отчет по проектной практике студента ИСИТ. Разработка игры Forest Ranger." />
-    <meta property="twitter:description" content="Сайт-отчет по проектной практике студента ИСИТ. Разработка игры Forest Ranger." />
-    
 
-    <meta property="og:url" content="http://localhost:1313/forestranger/" />
+<meta property="og:url" content="http://localhost:1313/forestranger/">
+  <meta property="og:site_name" content="Forest Ranger">
+  <meta property="og:title" content="Forest Ranger">
+  <meta property="og:description" content="Разработка мобильной игры Forest Ranger на Unity">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="website">
 
-    
-    <meta property="twitter:card" content="summary" />
-    
-    
 
-    <meta name="keyword"  content="Unity, C#, GameDev, Forest Ranger, Проектная деятельность">
-    <link rel="shortcut icon" href="/forestranger/img/favicon.ico">
-
-    <title>Forest Ranger | Проектная практика | Forest Ranger - Game Dev Log</title>
-
-    <link rel="canonical" href="/forestranger/">
-
-    
-
-    
-    <link rel="stylesheet" href="/forestranger/css/bootstrap.min.css">
-
-    
-    <link rel="stylesheet" href="/forestranger/css/hugo-theme-cleanwhite.css">
-
-    
-    <link rel="stylesheet" href="/forestranger/css/theme-variables.css">
-
-    
-    <link rel="stylesheet" href="/forestranger/css/zanshang.min.css">
-
-    
-    <link rel="stylesheet" href="/forestranger/css/font-awesome.all.min.css">
-
-    
-    
-    
-    
-
-    
-    <script src="/forestranger/js/jquery.min.js"></script>
-
-    
-    <script src="/forestranger/js/bootstrap.min.js"></script>
-
-    
-    <script src="/forestranger/js/hux-blog.min.js"></script>
-
-    
-    <script src="/forestranger/js/lazysizes.min.js"></script>
-
-    
-    
-
-</head>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Forest Ranger">
+  <meta name="twitter:description" content="Разработка мобильной игры Forest Ranger на Unity">
 
 
 
 
 
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<link rel="stylesheet" href="/forestranger/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/forestranger/css/header.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/footer.css" media="all">
 
-    <div class="container-fluid">
-        
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Forest Ranger | Проектная практика</a>
-        </div>
 
-        
-        
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">All Posts</a>
-                    </li>
-                    
-                        
-                    
+<link rel="stylesheet" href="/forestranger/css/theme.css" media="all">
 
-		    
-		            <li>
-                        <a href="/forestranger/search"><i class="fa fa-search"></i></a>
-		           </li>
-                    
-		            <li>
-                        <a href="#" id="theme-toggle" title="Toggle dark mode" style="opacity: 0;">
-                            <i class="fa fa-moon"></i>
-                            <i class="fa fa-sun" style="display: none;"></i>
-                        </a>
-		           </li>
-                    <script>
-                    (function() {
-                        
-                        var theme = localStorage.getItem('cleanwhite-theme') ||
-                                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                        var toggleBtn = document.getElementById('theme-toggle');
-                        if (toggleBtn) {
-                            var moonIcon = toggleBtn.querySelector('.fa-moon');
-                            var sunIcon = toggleBtn.querySelector('.fa-sun');
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
 
-                            if (theme === 'dark') {
-                                if (moonIcon) moonIcon.style.display = 'none';
-                                if (sunIcon) sunIcon.style.display = 'inline';
-                                toggleBtn.setAttribute('title', 'Switch to light mode');
-                            } else {
-                                if (moonIcon) moonIcon.style.display = 'inline';
-                                if (sunIcon) sunIcon.style.display = 'none';
-                                toggleBtn.setAttribute('title', 'Switch to dark mode');
-                            }
-
-                            
-                            requestAnimationFrame(function() {
-                                toggleBtn.style.transition = 'opacity 0.2s ease';
-                                toggleBtn.style.opacity = '1';
-                            });
-                        }
-                    })();
-                    </script>
-                    
-                </ul>
-            </div>
-        </div>
-        
-    </div>
-    
-</nav>
-<script>
-    
-    
-    
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
-
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        
-            $navbar.className = " ";
-            
-            setTimeout(function(){
-                
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
-        }
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
     }
 
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        var navLinks = document.querySelectorAll('.navbar-collapse a');
-        navLinks.forEach(function(link) {
-            link.addEventListener('click', function() {
-                if ($navbar.className.indexOf('in') > 0) {
-                    
-                    $navbar.className = " ";
-                    setTimeout(function(){
-                        if($navbar.className.indexOf('in') < 0) {
-                            $collapse.style.height = "0px"
-                        }
-                    },400)
-                }
-            });
-        });
-    });
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content=Разработка&#32;мобильной&#32;игры&#32;Forest&#32;Ranger&#32;на&#32;Unity>
+<link rel="stylesheet" href="/forestranger/css/index.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/projects.css" media="all">
+
+
+<script defer src="/forestranger/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Forest Ranger
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
 </script>
 
 
 
-<header class="intro-header" style="background-image: url('/forestranger/img/home-bg-jeep.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Forest Ranger | Проектная практика </h1>
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/forestranger/">
+                
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
                     
-		    <span class="subheading">Разработка мобильной игры Forest Ranger</span>
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/about" title="">
+                            
+                            О проекте
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/participants" title="">
+                            
+                            Участники
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/posts" title="">
+                            
+                            Журнал
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/reasources" title="">
+                            
+                            Ресурсы
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content"><section id="hero" class="py-5 align-middle">
+    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 content " id="primary-font">
+                <span class="subtitle">
+                    
+                </span>
+                <h1>
+                    Forest Ranger
+                </h1>
+                <h2>
+                    Мобильная игра про егеря в лесу
+                </h2>
+                <p class="hero-content">
+                    Сайт-отчет по проектной практике
+                </p>
+                <div class="row">
+                    <div class="col-auto h-100">
+                        
+                        <a href="" class="btn" ZgotmplZ
+			  
+                          target="_blank"
+                          >
+                            
+                        </a>
+                        
+                    </div>
+                    <div class="col-auto px-0 h-100"><span>
+    
+
+    
+</span>
+</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-9 pt-5 image  px-5 px-md-5 px-lg-0 text-center">
+                        <img src="img/hero.png"
+                            class="img-thumbnail mx-auto"
+                            alt=" profile image"
+                        >
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</header>
-
-
-
-  
-<div data-pagefind-ignore="all" class="container">
-    <div class="row">
-        
-        
-   	    <div class="
-            col-lg-8 col-lg-offset-1
-            col-md-8 col-md-offset-1
-            col-sm-12
-            col-xs-12
-            post-container
-        ">
-            
-<div data-pagefind-ignore="all">
-
-</div>
-
-            
-
-
-
-       	</div>
-        
-
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
     
-	
-    <section class="visible-md visible-lg">
-	
-        <div class="short-about">
-            
-            
-                <p>Студент-разработчик игр на Unity</p>
-            
-           
-           <ul class="list-inline">
-               
-               <li>
-                   <a href="mailto:murin8@mail.ru">
-                      <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                      </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-               
-               <li>
-                   <a target="_blank" href="https://github.com/NoPosh">
-                       <span class="fa-stack fa-lg">
-                           <i class="fas fa-circle fa-stack-2x"></i>
-                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                       </span>
-                   </a>
-               </li>
-               
-               
-               
-               
-               
-               
-            
-            
-               
-               
-               
-               
-                </ul>
-            </div>
-    </section>
-	
+    <div class="hero-bottom-svg d-md-block d-lg-block d-none">
+        <svg xmlns="http://www.w3.org/2000/svg" width="201" height="201" viewBox="0 0 201 201">
+            <g id="Group_1168" data-name="Group 1168" transform="translate(-384 -1392)">
+                <rect id="Rectangle_2206" data-name="Rectangle 2206" width="12" height="2" rx="1"
+                    transform="translate(391 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2271" data-name="Rectangle 2271" width="12" height="2" rx="1"
+                    transform="translate(391 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2238" data-name="Rectangle 2238" width="12" height="2" rx="1"
+                    transform="translate(391 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2278" data-name="Rectangle 2278" width="12" height="2" rx="1"
+                    transform="translate(391 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2222" data-name="Rectangle 2222" width="12" height="2" rx="1"
+                    transform="translate(391 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2272" data-name="Rectangle 2272" width="12" height="2" rx="1"
+                    transform="translate(391 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2241" data-name="Rectangle 2241" width="12" height="2" rx="1"
+                    transform="translate(391 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2288" data-name="Rectangle 2288" width="12" height="2" rx="1"
+                    transform="translate(391 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2214" data-name="Rectangle 2214" width="12" height="2" rx="1"
+                    transform="translate(499 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2289" data-name="Rectangle 2289" width="12" height="2" rx="1"
+                    transform="translate(499 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2256" data-name="Rectangle 2256" width="12" height="2" rx="1"
+                    transform="translate(499 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2290" data-name="Rectangle 2290" width="12" height="2" rx="1"
+                    transform="translate(499 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2231" data-name="Rectangle 2231" width="12" height="2" rx="1"
+                    transform="translate(499 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2291" data-name="Rectangle 2291" width="12" height="2" rx="1"
+                    transform="translate(499 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2257" data-name="Rectangle 2257" width="12" height="2" rx="1"
+                    transform="translate(499 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2292" data-name="Rectangle 2292" width="12" height="2" rx="1"
+                    transform="translate(499 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2210" data-name="Rectangle 2210" width="12" height="2" rx="1"
+                    transform="translate(445 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2279" data-name="Rectangle 2279" width="12" height="2" rx="1"
+                    transform="translate(445 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2248" data-name="Rectangle 2248" width="12" height="2" rx="1"
+                    transform="translate(445 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2280" data-name="Rectangle 2280" width="12" height="2" rx="1"
+                    transform="translate(445 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2226" data-name="Rectangle 2226" width="12" height="2" rx="1"
+                    transform="translate(445 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2281" data-name="Rectangle 2281" width="12" height="2" rx="1"
+                    transform="translate(445 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2249" data-name="Rectangle 2249" width="12" height="2" rx="1"
+                    transform="translate(445 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2293" data-name="Rectangle 2293" width="12" height="2" rx="1"
+                    transform="translate(445 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2219" data-name="Rectangle 2219" width="12" height="2" rx="1"
+                    transform="translate(553 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2310" data-name="Rectangle 2310" width="12" height="2" rx="1"
+                    transform="translate(553 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2262" data-name="Rectangle 2262" width="12" height="2" rx="1"
+                    transform="translate(553 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2311" data-name="Rectangle 2311" width="12" height="2" rx="1"
+                    transform="translate(553 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2232" data-name="Rectangle 2232" width="12" height="2" rx="1"
+                    transform="translate(553 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2312" data-name="Rectangle 2312" width="12" height="2" rx="1"
+                    transform="translate(553 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2263" data-name="Rectangle 2263" width="12" height="2" rx="1"
+                    transform="translate(553 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2313" data-name="Rectangle 2313" width="12" height="2" rx="1"
+                    transform="translate(553 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2209" data-name="Rectangle 2209" width="12" height="2" rx="1"
+                    transform="translate(418 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2273" data-name="Rectangle 2273" width="12" height="2" rx="1"
+                    transform="translate(418 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2242" data-name="Rectangle 2242" width="12" height="2" rx="1"
+                    transform="translate(418 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2282" data-name="Rectangle 2282" width="12" height="2" rx="1"
+                    transform="translate(418 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2223" data-name="Rectangle 2223" width="12" height="2" rx="1"
+                    transform="translate(418 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2274" data-name="Rectangle 2274" width="12" height="2" rx="1"
+                    transform="translate(418 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2243" data-name="Rectangle 2243" width="12" height="2" rx="1"
+                    transform="translate(418 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2294" data-name="Rectangle 2294" width="12" height="2" rx="1"
+                    transform="translate(418 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2217" data-name="Rectangle 2217" width="12" height="2" rx="1"
+                    transform="translate(526 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2314" data-name="Rectangle 2314" width="12" height="2" rx="1"
+                    transform="translate(526 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2258" data-name="Rectangle 2258" width="12" height="2" rx="1"
+                    transform="translate(526 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2315" data-name="Rectangle 2315" width="12" height="2" rx="1"
+                    transform="translate(526 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2233" data-name="Rectangle 2233" width="12" height="2" rx="1"
+                    transform="translate(526 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2316" data-name="Rectangle 2316" width="12" height="2" rx="1"
+                    transform="translate(526 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2259" data-name="Rectangle 2259" width="12" height="2" rx="1"
+                    transform="translate(526 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2317" data-name="Rectangle 2317" width="12" height="2" rx="1"
+                    transform="translate(526 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2211" data-name="Rectangle 2211" width="12" height="2" rx="1"
+                    transform="translate(472 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2295" data-name="Rectangle 2295" width="12" height="2" rx="1"
+                    transform="translate(472 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2250" data-name="Rectangle 2250" width="12" height="2" rx="1"
+                    transform="translate(472 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2296" data-name="Rectangle 2296" width="12" height="2" rx="1"
+                    transform="translate(472 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2227" data-name="Rectangle 2227" width="12" height="2" rx="1"
+                    transform="translate(472 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2297" data-name="Rectangle 2297" width="12" height="2" rx="1"
+                    transform="translate(472 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2251" data-name="Rectangle 2251" width="12" height="2" rx="1"
+                    transform="translate(472 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2298" data-name="Rectangle 2298" width="12" height="2" rx="1"
+                    transform="translate(472 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2221" data-name="Rectangle 2221" width="12" height="2" rx="1"
+                    transform="translate(580 1392) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2318" data-name="Rectangle 2318" width="12" height="2" rx="1"
+                    transform="translate(580 1500) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2264" data-name="Rectangle 2264" width="12" height="2" rx="1"
+                    transform="translate(580 1446) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2319" data-name="Rectangle 2319" width="12" height="2" rx="1"
+                    transform="translate(580 1554) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2236" data-name="Rectangle 2236" width="12" height="2" rx="1"
+                    transform="translate(580 1419) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2320" data-name="Rectangle 2320" width="12" height="2" rx="1"
+                    transform="translate(580 1527) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2265" data-name="Rectangle 2265" width="12" height="2" rx="1"
+                    transform="translate(580 1473) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2321" data-name="Rectangle 2321" width="12" height="2" rx="1"
+                    transform="translate(580 1581) rotate(90)" fill="#282f49" />
+                <rect id="Rectangle_2207" data-name="Rectangle 2207" width="12" height="2" rx="1"
+                    transform="translate(396 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2270" data-name="Rectangle 2270" width="12" height="2" rx="1"
+                    transform="translate(396 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2239" data-name="Rectangle 2239" width="12" height="2" rx="1"
+                    transform="translate(396 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2283" data-name="Rectangle 2283" width="12" height="2" rx="1"
+                    transform="translate(396 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2224" data-name="Rectangle 2224" width="12" height="2" rx="1"
+                    transform="translate(396 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2275" data-name="Rectangle 2275" width="12" height="2" rx="1"
+                    transform="translate(396 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2244" data-name="Rectangle 2244" width="12" height="2" rx="1"
+                    transform="translate(396 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2299" data-name="Rectangle 2299" width="12" height="2" rx="1"
+                    transform="translate(396 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2215" data-name="Rectangle 2215" width="12" height="2" rx="1"
+                    transform="translate(504 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2300" data-name="Rectangle 2300" width="12" height="2" rx="1"
+                    transform="translate(504 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2252" data-name="Rectangle 2252" width="12" height="2" rx="1"
+                    transform="translate(504 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2301" data-name="Rectangle 2301" width="12" height="2" rx="1"
+                    transform="translate(504 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2228" data-name="Rectangle 2228" width="12" height="2" rx="1"
+                    transform="translate(504 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2302" data-name="Rectangle 2302" width="12" height="2" rx="1"
+                    transform="translate(504 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2253" data-name="Rectangle 2253" width="12" height="2" rx="1"
+                    transform="translate(504 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2303" data-name="Rectangle 2303" width="12" height="2" rx="1"
+                    transform="translate(504 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2212" data-name="Rectangle 2212" width="12" height="2" rx="1"
+                    transform="translate(450 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2284" data-name="Rectangle 2284" width="12" height="2" rx="1"
+                    transform="translate(450 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2245" data-name="Rectangle 2245" width="12" height="2" rx="1"
+                    transform="translate(450 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2285" data-name="Rectangle 2285" width="12" height="2" rx="1"
+                    transform="translate(450 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2229" data-name="Rectangle 2229" width="12" height="2" rx="1"
+                    transform="translate(450 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2286" data-name="Rectangle 2286" width="12" height="2" rx="1"
+                    transform="translate(450 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2246" data-name="Rectangle 2246" width="12" height="2" rx="1"
+                    transform="translate(450 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2304" data-name="Rectangle 2304" width="12" height="2" rx="1"
+                    transform="translate(450 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2218" data-name="Rectangle 2218" width="12" height="2" rx="1"
+                    transform="translate(558 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2322" data-name="Rectangle 2322" width="12" height="2" rx="1"
+                    transform="translate(558 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2266" data-name="Rectangle 2266" width="12" height="2" rx="1"
+                    transform="translate(558 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2323" data-name="Rectangle 2323" width="12" height="2" rx="1"
+                    transform="translate(558 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2234" data-name="Rectangle 2234" width="12" height="2" rx="1"
+                    transform="translate(558 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2324" data-name="Rectangle 2324" width="12" height="2" rx="1"
+                    transform="translate(558 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2267" data-name="Rectangle 2267" width="12" height="2" rx="1"
+                    transform="translate(558 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2325" data-name="Rectangle 2325" width="12" height="2" rx="1"
+                    transform="translate(558 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2208" data-name="Rectangle 2208" width="12" height="2" rx="1"
+                    transform="translate(423 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2276" data-name="Rectangle 2276" width="12" height="2" rx="1"
+                    transform="translate(423 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2240" data-name="Rectangle 2240" width="12" height="2" rx="1"
+                    transform="translate(423 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2287" data-name="Rectangle 2287" width="12" height="2" rx="1"
+                    transform="translate(423 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2225" data-name="Rectangle 2225" width="12" height="2" rx="1"
+                    transform="translate(423 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2277" data-name="Rectangle 2277" width="12" height="2" rx="1"
+                    transform="translate(423 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2247" data-name="Rectangle 2247" width="12" height="2" rx="1"
+                    transform="translate(423 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2305" data-name="Rectangle 2305" width="12" height="2" rx="1"
+                    transform="translate(423 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2216" data-name="Rectangle 2216" width="12" height="2" rx="1"
+                    transform="translate(531 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2326" data-name="Rectangle 2326" width="12" height="2" rx="1"
+                    transform="translate(531 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2260" data-name="Rectangle 2260" width="12" height="2" rx="1"
+                    transform="translate(531 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2327" data-name="Rectangle 2327" width="12" height="2" rx="1"
+                    transform="translate(531 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2235" data-name="Rectangle 2235" width="12" height="2" rx="1"
+                    transform="translate(531 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2328" data-name="Rectangle 2328" width="12" height="2" rx="1"
+                    transform="translate(531 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2261" data-name="Rectangle 2261" width="12" height="2" rx="1"
+                    transform="translate(531 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2329" data-name="Rectangle 2329" width="12" height="2" rx="1"
+                    transform="translate(531 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2213" data-name="Rectangle 2213" width="12" height="2" rx="1"
+                    transform="translate(477 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2306" data-name="Rectangle 2306" width="12" height="2" rx="1"
+                    transform="translate(477 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2254" data-name="Rectangle 2254" width="12" height="2" rx="1"
+                    transform="translate(477 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2307" data-name="Rectangle 2307" width="12" height="2" rx="1"
+                    transform="translate(477 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2230" data-name="Rectangle 2230" width="12" height="2" rx="1"
+                    transform="translate(477 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2308" data-name="Rectangle 2308" width="12" height="2" rx="1"
+                    transform="translate(477 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2255" data-name="Rectangle 2255" width="12" height="2" rx="1"
+                    transform="translate(477 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2309" data-name="Rectangle 2309" width="12" height="2" rx="1"
+                    transform="translate(477 1588) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2220" data-name="Rectangle 2220" width="12" height="2" rx="1"
+                    transform="translate(585 1399) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2330" data-name="Rectangle 2330" width="12" height="2" rx="1"
+                    transform="translate(585 1507) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2268" data-name="Rectangle 2268" width="12" height="2" rx="1"
+                    transform="translate(585 1453) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2331" data-name="Rectangle 2331" width="12" height="2" rx="1"
+                    transform="translate(585 1561) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2237" data-name="Rectangle 2237" width="12" height="2" rx="1"
+                    transform="translate(585 1426) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2332" data-name="Rectangle 2332" width="12" height="2" rx="1"
+                    transform="translate(585 1534) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2269" data-name="Rectangle 2269" width="12" height="2" rx="1"
+                    transform="translate(585 1480) rotate(-180)" fill="#282f49" />
+                <rect id="Rectangle_2333" data-name="Rectangle 2333" width="12" height="2" rx="1"
+                    transform="translate(585 1588) rotate(-180)" fill="#282f49" />
+            </g>
+        </svg>
+    </div>
     
+</section>
+
+
+
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check-circle-fill" viewBox="0 0 16 16">
+    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+  </symbol>
+  <symbol id="info-fill" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+</svg>
+
+  </div><footer>
     
-    
+
+
+ 
+
+<div class="text-center pt-2">
     
 
     
+
     
+
     
+
     
-</div>
-
-	</div>
-</div>
-
-
-
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    
-                    <li>
-                        <a href="mailto:murin8@mail.ru">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		           
-                    
-                    
-                    
-                    
-
-		            
-                    
-                    
-                    <li>
-                        <a target="_blank" href="https://github.com/NoPosh">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		            
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
             
-            
-            
-           
-             </ul>
-		<p class="copyright text-muted">
-                    Copyright &copy; Forest Ranger | Проектная практика 2026
-                    
-                    <br>
-                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
-                    </iframe>
-                    
-                </p>
+            &copy; 2026  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
             </div>
         </div>
     </div>
-</footer>
-
-
-
-
+</div>
+</footer><script src="/forestranger/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    function loadAsync(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
     }
+
 </script>
-
-
-
-
-
-
 <script>
-    
-    if($('#tag_cloud').length !== 0){
-        loadAsync("/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
-
-
-<script>
-    (function() {
-        function updateTagcloudColors() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const startColor = isDark ? '#808080' : '#bbbbee';
-            if($('#tag_cloud').length !== 0 && $.fn.tagcloud) {
-                $.fn.tagcloud.defaults = {
-                    color: {start: startColor, end: '#0085a1'},
-                };
-                $('#tag_cloud a').tagcloud();
-            }
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
         }
-
-        
-        $(document).ready(function() {
-            updateTagcloudColors();
-        });
-
-        
-        const observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (mutation.attributeName === 'data-theme') {
-                    updateTagcloudColors();
-                }
-            });
-        });
-
-        observer.observe(document.documentElement, {
-            attributes: true,
-            attributeFilter: ['data-theme']
-        });
-    })();
-</script>
-
-
-<script>
-    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
     })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
 </script>
 
 
-<script src="/forestranger/js/theme-toggle.js"></script>
-
-
-
-
-
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
-    }
-
-    generateCatalog(".catalog-body");
-
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
-
-    
-
-
-    loadAsync("\/forestranger\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
-</script>
+    <script>
+      
+      window.searchIndexURL = "/forestranger/index.json";
+    </script>
+    <script src="/forestranger/js/search.js"></script>
 
 
 
@@ -547,5 +685,13 @@
 
 
 
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
 </body>
+
 </html>

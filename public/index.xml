@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Forest Ranger | Проектная практика</title>
+    <title>Forest Ranger</title>
     <link>http://localhost:1313/forestranger/</link>
-    <description>Recent content on Forest Ranger | Проектная практика</description>
+    <description>Recent content on Forest Ranger</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <atom:link href="http://localhost:1313/forestranger/index.xml" rel="self" type="application/rss+xml" />

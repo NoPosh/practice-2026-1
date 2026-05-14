@@ -1,487 +1,377 @@
 <!DOCTYPE html>
-<html lang="ru-ru">
-<head><script src="/forestranger/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=forestranger/livereload" data-no-instant defer></script>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
 
-    
-    <script>
-    (function() {
-        
-        
-        const autoTheme = false;
-        if (autoTheme) {
-            document.documentElement.setAttribute('data-auto-theme', 'true');
-        }
+<head><script src="/forestranger/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=forestranger/livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/forestranger/fav.png" type="image/gif">
 
-        const theme = localStorage.getItem('cleanwhite-theme') ||
-                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        document.documentElement.setAttribute('data-theme', theme);
-    })();
-    </script>
 
-    
-    <meta property="og:site_name" content="Forest Ranger | Проектная практика">
-    <meta property="og:type" content="article">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
 
-    
-    <meta property="og:image" content="http://localhost:1313/forestranger//img/home-bg-jeep.jpg">
-    <meta property="twitter:image" content="http://localhost:1313/forestranger//img/home-bg-jeep.jpg" />
-    
 
-    
-    <meta name="title" content="" />
-    <meta property="og:title" content="" />
-    <meta property="twitter:title" content="" />
-    
+<link rel="stylesheet" href="/forestranger/css/font.css" media="all">
 
-    
-    <meta name="description" content="Сайт-отчет по проектной практике студента ИСИТ. Разработка игры Forest Ranger.">
-    <meta property="og:description" content="Сайт-отчет по проектной практике студента ИСИТ. Разработка игры Forest Ranger." />
-    <meta property="twitter:description" content="Сайт-отчет по проектной практике студента ИСИТ. Разработка игры Forest Ranger." />
-    
 
-    <meta property="og:url" content="http://localhost:1313/forestranger/categories/" />
 
-    
-    <meta property="twitter:card" content="summary" />
-    
-    
+<meta property="og:url" content="http://localhost:1313/forestranger/categories/">
+  <meta property="og:site_name" content="Forest Ranger">
+  <meta property="og:title" content="Categories">
+  <meta property="og:description" content="Разработка мобильной игры Forest Ranger на Unity">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="website">
 
-    <meta name="keyword"  content="Unity, C#, GameDev, Forest Ranger, Проектная деятельность">
-    <link rel="shortcut icon" href="/forestranger/img/favicon.ico">
 
-    <title>Categories | Forest Ranger - Game Dev Log</title>
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Categories">
+  <meta name="twitter:description" content="Разработка мобильной игры Forest Ranger на Unity">
 
-    <link rel="canonical" href="/forestranger/categories/">
 
-    
 
-    
-    <link rel="stylesheet" href="/forestranger/css/bootstrap.min.css">
 
-    
-    <link rel="stylesheet" href="/forestranger/css/hugo-theme-cleanwhite.css">
 
-    
-    <link rel="stylesheet" href="/forestranger/css/theme-variables.css">
+<link rel="stylesheet" href="/forestranger/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/forestranger/css/header.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/footer.css" media="all">
 
-    
-    <link rel="stylesheet" href="/forestranger/css/zanshang.min.css">
 
-    
-    <link rel="stylesheet" href="/forestranger/css/font-awesome.all.min.css">
+<link rel="stylesheet" href="/forestranger/css/theme.css" media="all">
 
-    
-    
-    
-    
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
 
-    
-    <script src="/forestranger/js/jquery.min.js"></script>
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
 
-    
-    <script src="/forestranger/js/bootstrap.min.js"></script>
+    html {
+        background-color: var(--background-color) !important;
+    }
 
-    
-    <script src="/forestranger/js/hux-blog.min.js"></script>
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
 
-    
-    <script src="/forestranger/js/lazysizes.min.js"></script>
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
 
-    
-    
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
 
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="Categories of Forest Ranger">
+<link rel="stylesheet" href="/forestranger/css/list.css" media="all">
+
+
+  
+  
+
+  <title>
+Categories | Forest Ranger
+
+  </title>
 </head>
 
-
-
-
-
-<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-
-    <div class="container-fluid">
-        
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Forest Ranger | Проектная практика</a>
-        </div>
-
-        
-        
-        <div id="huxblog_navbar">
-            <div class="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">All Posts</a>
-                    </li>
-                    
-                        
-                    
-
-		    
-		            <li>
-                        <a href="/forestranger/search"><i class="fa fa-search"></i></a>
-		           </li>
-                    
-		            <li>
-                        <a href="#" id="theme-toggle" title="Toggle dark mode" style="opacity: 0;">
-                            <i class="fa fa-moon"></i>
-                            <i class="fa fa-sun" style="display: none;"></i>
-                        </a>
-		           </li>
-                    <script>
-                    (function() {
-                        
-                        var theme = localStorage.getItem('cleanwhite-theme') ||
-                                      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-                        var toggleBtn = document.getElementById('theme-toggle');
-                        if (toggleBtn) {
-                            var moonIcon = toggleBtn.querySelector('.fa-moon');
-                            var sunIcon = toggleBtn.querySelector('.fa-sun');
-
-                            if (theme === 'dark') {
-                                if (moonIcon) moonIcon.style.display = 'none';
-                                if (sunIcon) sunIcon.style.display = 'inline';
-                                toggleBtn.setAttribute('title', 'Switch to light mode');
-                            } else {
-                                if (moonIcon) moonIcon.style.display = 'inline';
-                                if (sunIcon) sunIcon.style.display = 'none';
-                                toggleBtn.setAttribute('title', 'Switch to dark mode');
-                            }
-
-                            
-                            requestAnimationFrame(function() {
-                                toggleBtn.style.transition = 'opacity 0.2s ease';
-                                toggleBtn.style.opacity = '1';
-                            });
-                        }
-                    })();
-                    </script>
-                    
-                </ul>
-            </div>
-        </div>
-        
-    </div>
-    
-</nav>
+<body class="light">
+  
+  
 <script>
-    
-    
-    
-    var $body   = document.body;
-    var $toggle = document.querySelector('.navbar-toggle');
-    var $navbar = document.querySelector('#huxblog_navbar');
-    var $collapse = document.querySelector('.navbar-collapse');
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
 
-    $toggle.addEventListener('click', handleMagic)
-    function handleMagic(e){
-        if ($navbar.className.indexOf('in') > 0) {
-        
-            $navbar.className = " ";
-            
-            setTimeout(function(){
-                
-                if($navbar.className.indexOf('in') < 0) {
-                    $collapse.style.height = "0px"
-                }
-            },400)
-        }else{
-        
-            $collapse.style.height = "auto"
-            $navbar.className += " in";
-        }
-    }
-
-    
-    document.addEventListener('DOMContentLoaded', function() {
-        var navLinks = document.querySelectorAll('.navbar-collapse a');
-        navLinks.forEach(function(link) {
-            link.addEventListener('click', function() {
-                if ($navbar.className.indexOf('in') > 0) {
-                    
-                    $navbar.className = " ";
-                    setTimeout(function(){
-                        if($navbar.className.indexOf('in') < 0) {
-                            $collapse.style.height = "0px"
-                        }
-                    },400)
-                }
-            });
-        });
-    });
-</script>
-
-
-
-<header class="intro-header" style="background-image: url('/forestranger/img/home-bg-jeep.jpg')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
-                <div class="site-heading">
-                    <h1>Forest Ranger | Проектная практика </h1>
-                    
-		    <span class="subheading">Разработка мобильной игры Forest Ranger</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-
-
-
-<article>
-    <div class="container">
-        <div class="row">
-            
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
-         	
-                
-
-
-
-
-
-            </div>
-            
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                
-                
-
-                
-                
-            </div>
-        </div>
-    </div>
-</article>
-
-
-
-
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                    
-                    <li>
-                        <a href="mailto:murin8@mail.ru">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		           
-                    
-                    
-                    
-                    
-
-		            
-                    
-                    
-                    <li>
-                        <a target="_blank" href="https://github.com/NoPosh">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-		            
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-            
-            
-            
-           
-             </ul>
-		<p class="copyright text-muted">
-                    Copyright &copy; Forest Ranger | Проектная практика 2026
-                    
-                    <br>
-                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
-                    <iframe
-                        style="margin-left: 2px; margin-bottom:-5px;"
-                        frameborder="0" scrolling="0" width="100px" height="20px"
-                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
-                    </iframe>
-                    
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-
-
-
-<script>
-    function loadAsync(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-
-
-
-
-
-
-<script>
-    
-    if($('#tag_cloud').length !== 0){
-        loadAsync("/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
-</script>
-
-
-<script>
-    (function() {
-        function updateTagcloudColors() {
-            const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
-            const startColor = isDark ? '#808080' : '#bbbbee';
-            if($('#tag_cloud').length !== 0 && $.fn.tagcloud) {
-                $.fn.tagcloud.defaults = {
-                    color: {start: startColor, end: '#0085a1'},
-                };
-                $('#tag_cloud a').tagcloud();
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
             }
-        }
-
-        
-        $(document).ready(function() {
-            updateTagcloudColors();
-        });
-
-        
-        const observer = new MutationObserver(function(mutations) {
-            mutations.forEach(function(mutation) {
-                if (mutation.attributeName === 'data-theme') {
-                    updateTagcloudColors();
-                }
-            });
-        });
-
-        observer.observe(document.documentElement, {
-            attributes: true,
-            attributeFilter: ['data-theme']
-        });
-    })();
+            break;
+    }
 </script>
 
 
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/forestranger/">
+                
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/about" title="">
+                            
+                            О проекте
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/participants" title="">
+                            
+                            Участники
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/posts" title="">
+                            
+                            Журнал
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/reasources" title="">
+                            
+                            Ресурсы
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">Categories</h2>
+    <div class="row">
+        
+        <div class="row justify-content-center">
+            <div class="col-auto m-3">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+  </div><footer>
+    
+
+
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+            &copy; 2026  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/forestranger/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
-</script>
-
-
-<script src="/forestranger/js/theme-toggle.js"></script>
-
-
-
-
-
-
-<script type="text/javascript">
-    function generateCatalog(selector) {
-
-        
-        
-        
-        
-            _containerSelector = 'div.post-container'
-        
-
-        
-        var P = $(_containerSelector), a, n, t, l, i, c;
-        a = P.find('h1,h2,h3,h4,h5,h6');
-
-        
-        $(selector).html('')
-
-        
-        a.each(function () {
-            n = $(this).prop('tagName').toLowerCase();
-            i = "#" + $(this).prop('id');
-            t = $(this).text();
-            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
-            l = $('<li class="' + n + '_nav"></li>').append(c);
-            $(selector).append(l);
-        });
-        return true;
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
     }
 
-    generateCatalog(".catalog-body");
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
 
-    
-    $(".catalog-toggle").click((function (e) {
-        e.preventDefault();
-        $('.side-catalog').toggleClass("fold")
-    }))
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
 
-    
-
-
-    loadAsync("\/forestranger\/js\/jquery.nav.js", function () {
-        $('.catalog-body').onePageNav({
-            currentClass: "active",
-            changeHash: !1,
-            easing: "swing",
-            filter: "",
-            scrollSpeed: 700,
-            scrollOffset: 0,
-            scrollThreshold: .2,
-            begin: null,
-            end: null,
-            scrollChange: null,
-            padding: 80
-        });
-    });
 </script>
 
 
+    <script>
+      
+      window.searchIndexURL = "/forestranger/index.json";
+    </script>
+    <script src="/forestranger/js/search.js"></script>
 
 
 
 
 
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
 </body>
+
 </html>
