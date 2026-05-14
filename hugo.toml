@@ -6,6 +6,13 @@ locale = "ru-ru"
 [params]
 	# Основные настройки
 	description = "Разработка мобильной игры Forest Ranger на Unity"
+	animate = true
+
+	[params.terms]
+        toc = "Содержание"
+        read = "Читать"
+        copyright = "Все права защищены"
+        emailText = "Посмотрите этот проект"
 
 	#Настройка главного экрана
 	[params.hero]
@@ -17,15 +24,23 @@ locale = "ru-ru"
 
 
 	 # Кнопка на главном экране
-	 [params.hero.button]
-	  enable = true
-	  label = "More"
-	  link = "/posts"
+		[params.hero.button]
+            enable = true
+            name = "Подробнее"
+            url = "/forestranger/about"
 
-	# Соцсети
+	[params.singlePages]
+        socialShare = false # Выключает плашку Socials
+        [params.singlePages.scrollprogress] # Красивая полоска прогресса чтения сверху
+            enable = true
+        [params.singlePages.readTime]
+            enable = true
+            content = "мин. чтения"
+
+
 	[[params.social]]
-	 icon = "github"
-	 link = "https://github.com/NoPosh/ForestRangerGame.git"
+        icon = "fab fa-github"
+        url = "https://github.com/NoPosh/ForestRangerGame"
 
 # Настройка меню
 [[menu.main]]
@@ -47,3 +62,14 @@ locale = "ru-ru"
  name = "Ресурсы"
  url = "/resources"
  weight = 4
+
+ [languages]
+  [languages.ru]
+  languageName = "Russian"
+  title = "Forest Ranger"
+  contentDir = "content"
+  weight = 1
+
+  [markup]
+    [markup.goldmark.renderer]
+        unsafe = true # Чтобы работали картинки и HTML в Markdown
