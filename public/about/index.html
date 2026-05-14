@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/forestranger/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=forestranger/livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/forestranger/fav.png" type="image/gif">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
+<noscript>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</noscript>
+
+
+<link rel="stylesheet" href="/forestranger/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/forestranger/about/">
+  <meta property="og:site_name" content="Forest Ranger">
+  <meta property="og:title" content="О проекте">
+  <meta property="og:description" content="Forest Ranger: Стелс-приключение в сердце тайги Forest Ranger — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.
+Сюжет и мир игры Жанр и синопсис Главный герой — Егерь Еремей. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.">
+  <meta property="og:locale" content="ru_ru">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2026-05-15T01:14:01+03:00">
+    <meta property="article:modified_time" content="2026-05-15T01:14:01+03:00">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="О проекте">
+  <meta name="twitter:description" content="Forest Ranger: Стелс-приключение в сердце тайги Forest Ranger — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.
+Сюжет и мир игры Жанр и синопсис Главный герой — Егерь Еремей. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.">
+
+
+
+
+
+<link rel="stylesheet" href="/forestranger/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/forestranger/css/header.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/forestranger/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/forestranger/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
+    }
+
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content="">
+<link rel="stylesheet" href="/forestranger/css/single.css">
+
+
+<script defer src="/forestranger/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+О проекте | Forest Ranger
+
+  </title>
+</head>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg ">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/forestranger/">
+                
+                
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/about" title="">
+                            
+                            О проекте
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/participants" title="">
+                            
+                            Участники
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/posts" title="">
+                            
+                            Журнал
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/forestranger/reasources" title="">
+                            
+                            Ресурсы
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+</header>
+<div id="content">
+<section id="single">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+          <div class="title mb-5">
+            <h1 class="text-center mb-4">О проекте</h1>
+            <div class="text-center">
+              
+              15 мая 2026 г.
+
+              
+              <span id="readingTime">
+                min read
+              </span>
+              
+            </div>
+          </div>
+          
+          <article class="page-content  p-2">
+          <h1 id="forest-ranger-стелс-приключение-в-сердце-тайги">Forest Ranger: Стелс-приключение в сердце тайги</h1>
+<p><strong>Forest Ranger</strong> — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.</p>
+<h2 id="сюжет-и-мир-игры">Сюжет и мир игры</h2>
+<h3 id="жанр-и-синопсис">Жанр и синопсис</h3>
+<p>Главный герой — <strong>Егерь Еремей</strong>. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.</p>
+<blockquote>
+<p><strong>Завязка:</strong> Заканчивая обучение на кафедре «Охотоведение и биоэкология», Еремей получает весть о смерти отца. Теперь он должен не только принять наследство, но и защитить кордон от тех, кто хочет превратить заповедник в частный охотничий клуб.</p>
+</blockquote>
+<h3 id="конфликт-и-кульминация">Конфликт и кульминация</h3>
+<p>Основной противник — банда браконьеров <strong>«Чёрные следопыты»</strong>. Их цель — захват земель и поиск аномалии <strong>«Тропа Древних»</strong>, главной тайны этого леса.</p>
+<p>В кульминации герою предстоит вырваться из плена в пещере с древним капищем, полагаясь на помощь своих лесных союзников — зубров и волка. Исход игры зависит от финального выбора:</p>
+<ul>
+<li><strong>Месть:</strong> Убийство лидера браконьеров ведет к потере заповедника и душевной травме.</li>
+<li><strong>Правосудие:</strong> Сдача улик полиции позволяет Еремею сохранить дело отца и обрести мир.</li>
+</ul>
+<hr>
+<h2 id="геймплей-и-механики">Геймплей и механики</h2>
+<h3 id="основной-игровой-цикл-core-loop">Основной игровой цикл (Core Loop)</h3>
+<p>Процесс игры разделен на несколько фаз:</p>
+<ol>
+<li><strong>Патрулирование:</strong> Выход в открытые области для слежки за порядком.</li>
+<li><strong>Задания и мини-игры:</strong> Лечение животных, поиск улик и устранение ловушек.</li>
+<li><strong>Стелс и боевка:</strong> Скрытное перемещение мимо патрулей браконьеров или вступление в открытое противостояние.</li>
+<li><strong>Главная база (Кордон):</strong> Место для отдыха, кастомизации снаряжения и проведения расследований на основе собранных улик.</li>
+</ol>
+<h3 id="схема-управления-mobile-top-down">Схема управления (Mobile Top-Down)</h3>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Элемент управления</th>
+          <th style="text-align: left">Расположение</th>
+          <th style="text-align: left">Функция</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"><strong>Левый джойстик</strong></td>
+          <td style="text-align: left">Левый нижний угол</td>
+          <td style="text-align: left">Передвижение героя</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Правый джойстик</strong></td>
+          <td style="text-align: left">Правый нижний угол</td>
+          <td style="text-align: left">Использование снаряжения</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Кнопка взаимодействия</strong></td>
+          <td style="text-align: left">Справа над джойстиком</td>
+          <td style="text-align: left">Быстрое действие (поднять, открыть)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Кнопка удержания</strong></td>
+          <td style="text-align: left">Правая часть экрана</td>
+          <td style="text-align: left">Сложные действия (ремонт, лечение)</td>
+      </tr>
+      <tr>
+          <td style="text-align: left"><strong>Инвентарь / Пауза</strong></td>
+          <td style="text-align: left">Верхние углы экрана</td>
+          <td style="text-align: left">Доступ к меню и предметам</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="технический-стек">Технический стек</h2>
+<p>В разработке используются продвинутые решения для Unity:</p>
+<ul>
+<li><strong>Архитектура:</strong> Zenject (DI) для чистоты кода.</li>
+<li><strong>Асинхронность:</strong> UniTask.</li>
+<li><strong>Реактивность:</strong> R3 (Reactive Extensions).</li>
+<li><strong>Анимации:</strong> DOTween.</li>
+</ul>
+
+          </article>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          
+          <aside class="toc">
+              <h5>
+                Table Of Contents
+              </h5>
+              <div class="toc-content">
+                <nav id="TableOfContents">
+  <ul>
+    <li><a href="#сюжет-и-мир-игры">Сюжет и мир игры</a>
+      <ul>
+        <li><a href="#жанр-и-синопсис">Жанр и синопсис</a></li>
+        <li><a href="#конфликт-и-кульминация">Конфликт и кульминация</a></li>
+      </ul>
+    </li>
+    <li><a href="#геймплей-и-механики">Геймплей и механики</a>
+      <ul>
+        <li><a href="#основной-игровой-цикл-core-loop">Основной игровой цикл (Core Loop)</a></li>
+        <li><a href="#схема-управления-mobile-top-down">Схема управления (Mobile Top-Down)</a></li>
+      </ul>
+    </li>
+    <li><a href="#технический-стек">Технический стек</a></li>
+  </ul>
+</nav>
+              </div>
+          </aside>
+          
+
+          
+
+          
+          <aside class="social">
+            <h5>Social</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/feed/?shareActive=true&text= http%3a%2f%2flocalhost%3a1313%2fforestranger%2fabout%2f">
+                    <i class="fab fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='https://twitter.com/share?text=%d0%9e%20%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b5&url=http%3a%2f%2flocalhost%3a1313%2fforestranger%2fabout%2f&hashtags='>
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text=%d0%9e%20%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b5: http%3a%2f%2flocalhost%3a1313%2fforestranger%2fabout%2f">
+                    <i class="fab fa-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject=%d0%9e%20%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%b5&amp;body=Check%20out%20this%20site http%3a%2f%2flocalhost%3a1313%2fforestranger%2fabout%2f'>
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        
+      </div>
+    </div>
+  </div>
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<Script src="/forestranger/js/scrollProgressBar.js"></script>
+
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  let stickyNavBar =  false ;
+  if(stickyNavBar) {
+    let headerElem = document.getElementById("profileHeader");
+    let headerHeight = headerElem.offsetHeight + 15;
+    stickySideBarElem.style.top = headerHeight + "px";
+  } else {
+    stickySideBarElem.style.top = "50px";
+  }
+</script>
+
+
+<script src="/forestranger/js/readingTime.js"></script>
+
+
+
+  </div><footer>
+    
+
+
+ 
+
+<div class="text-center pt-2">
+    
+
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+            &copy; 2026  All Rights Reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="/forestranger/bootstrap-5/js/bootstrap.bundle.min.js"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
+</script>
+
+
+    <script>
+      
+      window.searchIndexURL = "/forestranger/index.json";
+    </script>
+    <script src="/forestranger/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
+</body>
+
+</html>

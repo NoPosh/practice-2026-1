@@ -2,10 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/forestranger/categories/</loc>
-  </url><url>
     <loc>http://localhost:1313/forestranger/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/forestranger/posts/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/forestranger/posts/setup-project/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/forestranger/tags/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/forestranger/tags/unity/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/forestranger/resources/</loc>
+    <lastmod>2026-05-15T01:14:45+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/forestranger/about/</loc>
+    <lastmod>2026-05-15T01:14:01+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/forestranger/categories/</loc>
   </url>
 </urlset>

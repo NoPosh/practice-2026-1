@@ -6,6 +6,28 @@
     <description>Recent content on Forest Ranger</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
+    <lastBuildDate>Fri, 15 May 2026 01:15:05 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/forestranger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Project</title>
+      <link>http://localhost:1313/forestranger/posts/setup-project/</link>
+      <pubDate>Fri, 15 May 2026 01:15:05 +0300</pubDate>
+      <guid>http://localhost:1313/forestranger/posts/setup-project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://localhost:1313/forestranger/resources/</link>
+      <pubDate>Fri, 15 May 2026 01:14:45 +0300</pubDate>
+      <guid>http://localhost:1313/forestranger/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>О проекте</title>
+      <link>http://localhost:1313/forestranger/about/</link>
+      <pubDate>Fri, 15 May 2026 01:14:01 +0300</pubDate>
+      <guid>http://localhost:1313/forestranger/about/</guid>
+      <description>&lt;h1 id=&#34;forest-ranger-стелс-приключение-в-сердце-тайги&#34;&gt;Forest Ranger: Стелс-приключение в сердце тайги&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Forest Ranger&lt;/strong&gt; — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.&lt;/p&gt;&#xA;&lt;h2 id=&#34;сюжет-и-мир-игры&#34;&gt;Сюжет и мир игры&lt;/h2&gt;&#xA;&lt;h3 id=&#34;жанр-и-синопсис&#34;&gt;Жанр и синопсис&lt;/h3&gt;&#xA;&lt;p&gt;Главный герой — &lt;strong&gt;Егерь Еремей&lt;/strong&gt;. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
