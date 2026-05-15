@@ -17,13 +17,19 @@
     <loc>http://localhost:1313/members/</loc>
     <lastmod>2026-05-15T02:08:25+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/architecture/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/devlog/</loc>
+    <lastmod>2026-05-15T01:15:05+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-05-15T01:15:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/setup-project/</loc>
+    <loc>http://localhost:1313/tags/unity/</loc>
     <lastmod>2026-05-15T01:15:05+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/unity/</loc>
+    <loc>http://localhost:1313/posts/setup-project/</loc>
     <lastmod>2026-05-15T01:15:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/resources/</loc>

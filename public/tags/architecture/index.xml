@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on Forest Ranger</title>
+    <link>http://localhost:1313/tags/architecture/</link>
+    <description>Recent content in Architecture on Forest Ranger</description>
+    <generator>Hugo</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Fri, 15 May 2026 01:15:05 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Девлог #1: Анализ прототипа и технический долг</title>
+      <link>http://localhost:1313/posts/setup-project/</link>
+      <pubDate>Fri, 15 May 2026 01:15:05 +0300</pubDate>
+      <guid>http://localhost:1313/posts/setup-project/</guid>
+      <description>&lt;p&gt;Первым делом мы провели ревизию того, что имели на старте. Прототип был, мягко говоря, «не очень»:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Код:&lt;/strong&gt; Неподдерживаемый «спегтти-код». Отсутствие архитектуры делало невозможным добавление новых фишек.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Геймдизайн:&lt;/strong&gt; Много ошибок в геймдизайне.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/old_visual.png&#34; alt=&#34;Сомнительный подбор палитры&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Примерно так это выглядело&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Решение:&lt;/strong&gt; Полный рефакторинг. Мы решили заложить фундамент на &lt;strong&gt;Zenject&lt;/strong&gt; и &lt;strong&gt;R3&lt;/strong&gt;, чтобы проект мог масштабироваться.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/old_code.png&#34; alt=&#34;Технический долг&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Пример того, как выглядела старая логика до внедрения DI-контейнеров&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

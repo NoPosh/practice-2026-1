@@ -30,19 +30,27 @@
 
 <meta property="og:url" content="http://localhost:1313/posts/setup-project/">
   <meta property="og:site_name" content="Forest Ranger">
-  <meta property="og:title" content="Setup Project">
-  <meta property="og:description" content="Разработка мобильной игры Forest Ranger на Unity">
+  <meta property="og:title" content="Девлог #1: Анализ прототипа и технический долг">
+  <meta property="og:description" content="Первым делом мы провели ревизию того, что имели на старте. Прототип был, мягко говоря, «не очень»:
+Код: Неподдерживаемый «спегтти-код». Отсутствие архитектуры делало невозможным добавление новых фишек. Геймдизайн: Много ошибок в геймдизайне. Примерно так это выглядело
+Решение: Полный рефакторинг. Мы решили заложить фундамент на Zenject и R3, чтобы проект мог масштабироваться.
+Пример того, как выглядела старая логика до внедрения DI-контейнеров">
   <meta property="og:locale" content="ru_ru">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
     <meta property="article:published_time" content="2026-05-15T01:15:05+03:00">
     <meta property="article:modified_time" content="2026-05-15T01:15:05+03:00">
+    <meta property="article:tag" content="DevLog">
     <meta property="article:tag" content="Unity">
+    <meta property="article:tag" content="Architecture">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Setup Project">
-  <meta name="twitter:description" content="Разработка мобильной игры Forest Ranger на Unity">
+  <meta name="twitter:title" content="Девлог #1: Анализ прототипа и технический долг">
+  <meta name="twitter:description" content="Первым делом мы провели ревизию того, что имели на старте. Прототип был, мягко говоря, «не очень»:
+Код: Неподдерживаемый «спегтти-код». Отсутствие архитектуры делало невозможным добавление новых фишек. Геймдизайн: Много ошибок в геймдизайне. Примерно так это выглядело
+Решение: Полный рефакторинг. Мы решили заложить фундамент на Zenject и R3, чтобы проект мог масштабироваться.
+Пример того, как выглядела старая логика до внедрения DI-контейнеров">
 
 
 
@@ -121,7 +129,7 @@
   
 
   <title>
-Setup Project | Forest Ranger
+Девлог #1: Анализ прототипа и технический долг | Forest Ranger
 
   </title>
 </head>
@@ -288,7 +296,7 @@ Setup Project | Forest Ranger
       <div class="col-sm-12 col-md-12 col-lg-9">
         <div class="pr-lg-4">
           <div class="title mb-5">
-            <h1 class="text-center mb-4">Setup Project</h1>
+            <h1 class="text-center mb-4">Девлог #1: Анализ прототипа и технический долг</h1>
             <div class="text-center">
               
               15 мая 2026 г.
@@ -302,7 +310,20 @@ Setup Project | Forest Ranger
           </div>
           
           <article class="page-content  p-2">
-          
+          <p>Первым делом мы провели ревизию того, что имели на старте. Прототип был, мягко говоря, «не очень»:</p>
+<ol>
+<li><strong>Код:</strong> Неподдерживаемый «спегтти-код». Отсутствие архитектуры делало невозможным добавление новых фишек.</li>
+<li><strong>Геймдизайн:</strong> Много ошибок в геймдизайне.</li>
+</ol>
+<hr>
+<p><img src="/img/old_visual.png" alt="Сомнительный подбор палитры"></p>
+<p><em>Примерно так это выглядело</em></p>
+<hr>
+<p><strong>Решение:</strong> Полный рефакторинг. Мы решили заложить фундамент на <strong>Zenject</strong> и <strong>R3</strong>, чтобы проект мог масштабироваться.</p>
+<hr>
+<p><img src="/img/old_code.png" alt="Технический долг"></p>
+<p><em>Пример того, как выглядела старая логика до внедрения DI-контейнеров</em></p>
+
           </article>
         </div>
       </div>
@@ -325,9 +346,19 @@ Setup Project | Forest Ranger
             <ul class="tags-ul list-unstyled list-inline">
               
               
+              <li class="list-inline-item"><a href="/tags/devlog"
+                target="_blank"
+              >DevLog</a></li>
+              
+              
               <li class="list-inline-item"><a href="/tags/unity"
                 target="_blank"
               >Unity</a></li>
+              
+              
+              <li class="list-inline-item"><a href="/tags/architecture"
+                target="_blank"
+              >Architecture</a></li>
               
             </ul>
           </aside>
