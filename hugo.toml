@@ -37,6 +37,12 @@ locale = "ru-ru"
             enable = true
             content = "мин. чтения"
 
+    [params.navbar]
+        disableSearch = true
+        brandName = "Forest Ranger"
+        brandLogo = "img/logo.png"     #Сюда бы небольшое лого
+        showBrandLogo = true
+
 
 	[[params.social]]
         icon = "fab fa-github"
