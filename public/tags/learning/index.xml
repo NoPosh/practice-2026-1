@@ -9,11 +9,11 @@
     <lastBuildDate>Fri, 15 May 2026 01:15:05 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Девлог #2: Битва стилей и поиск концепции</title>
+      <title>Девлог #3: Прокачка команды и технический стек</title>
       <link>http://localhost:1313/posts/setup-project3/</link>
       <pubDate>Fri, 15 May 2026 01:15:05 +0300</pubDate>
       <guid>http://localhost:1313/posts/setup-project3/</guid>
-      <description>&lt;p&gt;Выбор визуального стиля стал для нас настоящим вызовом. Основными претендентами были:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Pixel Art:&lt;/strong&gt; Классика, но сложна в детальной анимации.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sketch Style:&lt;/strong&gt; Атмосферно, но трудно выдержать единый стиль для всех художников.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Vector Style (Победитель):&lt;/strong&gt; Выбран за четкость, удобство масштабирования под мобильные экраны и современный вид.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/pallete.png&#34; alt=&#34;Сравнение стилей&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Наши наброски&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Параллельно мы прорабатывали «Тропу Древних» и характер Еремея. Мы хотели, чтобы игрок чувствовал одиночество и ответственность егеря.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/environment.png&#34; alt=&#34;Сравнение стилей&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Наброски локаций&lt;/em&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Для многих участников это первая серьезная работа. Мы превратили проектную практику в интенсивный курс обучения:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Программисты:&lt;/strong&gt; С нуля осваивали C#, погружались в асинхронность через &lt;code&gt;UniTask&lt;/code&gt; и реактивность в &lt;code&gt;R3&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Художники:&lt;/strong&gt; Вырабатывали единый пайплайн и стиль.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Менеджмент:&lt;/strong&gt; Учились координировать 20 человек через Task-трекеры.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/tasks.png&#34; alt=&#34;Рабочий процесс&#34;&gt;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&lt;i&gt;Наша доска&lt;/i&gt;&lt;/p&gt;&#xA;&lt;p&gt;Сейчас мы вышли на стабильный темп разработки. Впереди — реализация стелс-механик и ИИ браконьеров.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

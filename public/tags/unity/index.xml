@@ -16,6 +16,13 @@
       <description>&lt;p&gt;Первым делом мы провели ревизию того, что имели на старте. Прототип был, мягко говоря, «не очень»:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Код:&lt;/strong&gt; Неподдерживаемый «спегтти-код». Отсутствие архитектуры делало невозможным добавление новых фишек.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Геймдизайн:&lt;/strong&gt; Много ошибок в геймдизайне.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/old_visual.png&#34; alt=&#34;Сомнительный подбор палитры&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Примерно так это выглядело&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Решение:&lt;/strong&gt; Полный рефакторинг. Мы решили заложить фундамент на &lt;strong&gt;Zenject&lt;/strong&gt; и &lt;strong&gt;R3&lt;/strong&gt;, чтобы проект мог масштабироваться.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/old_code.png&#34; alt=&#34;Технический долг&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Пример того, как выглядела старая логика до внедрения DI-контейнеров&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Девлог #3: Прокачка команды и технический стек</title>
+      <link>http://localhost:1313/posts/setup-project3/</link>
+      <pubDate>Fri, 15 May 2026 01:15:05 +0300</pubDate>
+      <guid>http://localhost:1313/posts/setup-project3/</guid>
+      <description>&lt;p&gt;Для многих участников это первая серьезная работа. Мы превратили проектную практику в интенсивный курс обучения:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Программисты:&lt;/strong&gt; С нуля осваивали C#, погружались в асинхронность через &lt;code&gt;UniTask&lt;/code&gt; и реактивность в &lt;code&gt;R3&lt;/code&gt;.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Художники:&lt;/strong&gt; Вырабатывали единый пайплайн и стиль.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Менеджмент:&lt;/strong&gt; Учились координировать 20 человек через Task-трекеры.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/tasks.png&#34; alt=&#34;Рабочий процесс&#34;&gt;&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&lt;i&gt;Наша доска&lt;/i&gt;&lt;/p&gt;&#xA;&lt;p&gt;Сейчас мы вышли на стабильный темп разработки. Впереди — реализация стелс-механик и ИИ браконьеров.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Ресурсы и полезные материалы</title>
       <link>http://localhost:1313/resources/</link>
       <pubDate>Fri, 15 May 2026 01:14:45 +0300</pubDate>
