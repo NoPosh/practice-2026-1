@@ -1,4 +1,4 @@
-baseurl = "https://NoPosh.github.io/forestranger/"
+baseurl = "https://NoPosh.github.io/"
 title = "Forest Ranger"
 theme = "hugo-profile"
 locale = "ru-ru"
@@ -7,6 +7,7 @@ locale = "ru-ru"
 	# Основные настройки
 	description = "Разработка мобильной игры Forest Ranger на Unity"
 	animate = true
+    favicon = "/fav.png"
 
 	[params.terms]
         toc = "Содержание"
@@ -20,14 +21,23 @@ locale = "ru-ru"
 	 title = "Forest Ranger"
 	 subtitle = "Мобильная игра про егеря в лесу"
 	 content = "Сайт-отчет по проектной практике"
-	 image = "img/hero.png"	#TODO: положить скриншот игры сюда
+	 image = "/img/hero.png"
 
 
 	 # Кнопка на главном экране
 		[params.hero.button]
             enable = true
             name = "Подробнее"
-            url = "/forestranger/about"
+            url = "about"
+
+        [[params.hero.socialLinks.fontAwesomeIcons]]
+            icon = "fab fa-github"
+            url = "https://github.com/NoPosh/ForestRangerGame.git"
+
+        [params.hero.bottomImage]
+            enable = true
+            image = "/img/hero2.png"
+            
 
 	[params.singlePages]
         socialShare = false # Выключает плашку Socials
@@ -40,13 +50,85 @@ locale = "ru-ru"
     [params.navbar]
         disableSearch = true
         brandName = "Forest Ranger"
-        brandLogo = "img/logo.png"     #Сюда бы небольшое лого
+        brandLogo = "/img/logo.png"
         showBrandLogo = true
+
+    [params.about]
+    enable = true
+    title = "Особенности"
+    content = """    
+    * Стелс-механика: Используйте окружение и острый слух, чтобы обходить патрули.
+    * Живой мир: Взаимодействуйте с обитателями леса — от зубров до красных волков.
+    * Атмосфера: Погрузитесь в детективную историю, основанную на защите природы.
+    """
+    image = "/img/hero2.png"
+    
+    [params.about.skills]
+        enable = true
+        title = "Технологии разработки:"
+        items = ["Unity", "C#", "Zenject", "R3", "UniTask"]
 
 
 	[[params.social]]
         icon = "fab fa-github"
         url = "https://github.com/NoPosh/ForestRangerGame"
+
+    [params.experience]
+        enable = true
+        title = "Персонажи и мир игры" # Переименуем заголовок
+    
+        # --- ПЕРВЫЙ ПЕРСОНАЖ ---
+    [[params.experience.items]]
+        company = "Protagonist"
+        companyUrl = ""
+        [[params.experience.items.jobs]]
+            name = "Егерь Еремей"
+            date = "Главный герой"
+            content = "![Еремей](/img/eremey.png) \n\n Еремей — угрюмый, но справедливый человек. Он вернулся в родные леса, чтобы исполнить последнюю волю отца."
+    
+    # --- ВТОРОЙ ПЕРСОНАЖ ---
+    [[params.experience.items]]
+        company = "RedWolf"
+        companyUrl = ""
+        [[params.experience.items.jobs]]
+            name = "Красный волк"
+            date = "Дух леса / Союзник"
+            content = "![Волк](/img/redwolf.png) \n\n Редкий зверь, который становится проводником Еремея. Механика 'взгляда волка' завязана на взаимодействии с ним."
+
+    [[params.experience.items]]
+    company = "Father"
+    companyUrl = ""
+    [[params.experience.items.jobs]]
+        name = "Отец Еремея"
+        date = "Бывший хранитель кордона"
+        content = "![Отец](/img/father.png) \n\n Старый егерь, посвятивший жизнь защите заповедника. Его смерть стала завязкой истории, а завещание — призывом для сына защитить «Тропу Древних» от посягательств."
+
+    # --- ГЛАВА БАНДЫ ---
+    [[params.experience.items]]
+        company = "BandLeader"
+        companyUrl = ""
+        [[params.experience.items.jobs]]
+            name = "Старик (Главарь)"
+            date = "Антагонист / Бывший друг семьи"
+            content = "![Главарь](/img/boss.png) \n\n Основатель «Чёрных следопытов». Хладнокровный делец, который готов уничтожить экосистему ради наживы. Его прошлое тесно переплетено с отцом Еремея, что делает конфликт личным."
+    
+    # --- БРАКОНЬЕРЫ ---
+    [[params.experience.items]]
+        company = "Poachers"
+        companyUrl = ""
+        [[params.experience.items.jobs]]
+            name = "Чёрные следопыты"
+            date = "Противники"
+            content = "![Банда](/img/band.png) \n\n Хорошо оснащенная банда браконьеров. Их цель — захватить заповедник под элитный охотничий клуб. В игре они представляют основную угрозу, патрулируя локации и вынуждая игрока использовать стелс."
+    
+    # --- ЛЕСНИК ---
+    [[params.experience.items]]
+        company = "OtherRanger"
+        companyUrl = ""
+        [[params.experience.items.jobs]]
+            name = "Другой лесник"
+            date = "Коллега / Второстепенный персонаж"
+            content = "![Лесник](/img/forestranger.png) \n\n Представитель лесного хозяйства. Может выступать источником информации о передвижениях банды или помогать советами по выживанию в тайге."
 
 # Настройка меню
 [[menu.main]]

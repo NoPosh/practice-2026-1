@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Forest Ranger</title>
-    <link>http://localhost:1313/forestranger/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Forest Ranger</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
     <lastBuildDate>Fri, 15 May 2026 02:08:25 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/forestranger/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Участники</title>
-      <link>http://localhost:1313/forestranger/members/</link>
+      <link>http://localhost:1313/members/</link>
       <pubDate>Fri, 15 May 2026 02:08:25 +0300</pubDate>
-      <guid>http://localhost:1313/forestranger/members/</guid>
+      <guid>http://localhost:1313/members/</guid>
       <description>&lt;h2 id=&#34;наша-команда&#34;&gt;Наша команда&lt;/h2&gt;&#xA;&lt;p&gt;В разработке проекта Forest Ranger принимает участие группа студентов, распределивших роли согласно профессиональным компетенциям.&lt;/p&gt;&#xA;&lt;h3 id=&#34;тут-будет-много-людей&#34;&gt;Тут будет много людей&lt;/h3&gt;&#xA;&lt;p&gt;Здесь будет табличка с личным вкладом каждого участника&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setup Project</title>
-      <link>http://localhost:1313/forestranger/posts/setup-project/</link>
+      <link>http://localhost:1313/posts/setup-project/</link>
       <pubDate>Fri, 15 May 2026 01:15:05 +0300</pubDate>
-      <guid>http://localhost:1313/forestranger/posts/setup-project/</guid>
+      <guid>http://localhost:1313/posts/setup-project/</guid>
       <description></description>
     </item>
     <item>
       <title>Ресурсы и полезные материалы</title>
-      <link>http://localhost:1313/forestranger/resources/</link>
+      <link>http://localhost:1313/resources/</link>
       <pubDate>Fri, 15 May 2026 01:14:45 +0300</pubDate>
-      <guid>http://localhost:1313/forestranger/resources/</guid>
+      <guid>http://localhost:1313/resources/</guid>
       <description>&lt;h2 id=&#34;ссылки-на-проект&#34;&gt;Ссылки на проект&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Репозиторий проекта:&lt;/strong&gt; &lt;a href=&#34;https://github.com/NoPosh/ForestRangerGame.git&#34;&gt;GitHub / Forest Ranger&lt;/a&gt; — основной исходный код игры.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;технологический-стек-unity--c&#34;&gt;Технологический стек (Unity &amp;amp; C#)&lt;/h2&gt;&#xA;&lt;p&gt;Для реализации архитектуры в проекте используются следующие инструменты:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;R3 (Reactive Extensions for .NET):&lt;/strong&gt; &lt;a href=&#34;https://github.com/Cysharp/R3&#34;&gt;GitHub R3&lt;/a&gt; — основа для событийной модели игры.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;UniTask:&lt;/strong&gt; &lt;a href=&#34;https://github.com/Cysharp/UniTask&#34;&gt;GitHub UniTask&lt;/a&gt; — библиотека для эффективной асинхронности в Unity.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Extenject (Zenject):&lt;/strong&gt; &lt;a href=&#34;https://github.com/svermeulen/Extenject&#34;&gt;Документация Zenject&lt;/a&gt; — Dependency Injection фреймворк для слабой связанности систем.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;DOTween:&lt;/strong&gt; &lt;a href=&#34;http://dotween.demigiant.com/&#34;&gt;Официальный сайт&lt;/a&gt; — движок для создания плавных анимаций через код.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;организации-партнеры&#34;&gt;Организации-партнеры&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Московский Политех:&lt;/strong&gt; &lt;a href=&#34;https://mospolytech.ru/&#34;&gt;Сайт университета&lt;/a&gt; — организатор проектной деятельности.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>О проекте</title>
-      <link>http://localhost:1313/forestranger/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Fri, 15 May 2026 01:14:01 +0300</pubDate>
-      <guid>http://localhost:1313/forestranger/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;h1 id=&#34;forest-ranger-стелс-приключение-в-сердце-тайги&#34;&gt;Forest Ranger: Стелс-приключение в сердце тайги&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Forest Ranger&lt;/strong&gt; — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.&lt;/p&gt;&#xA;&lt;h2 id=&#34;сюжет-и-мир-игры&#34;&gt;Сюжет и мир игры&lt;/h2&gt;&#xA;&lt;h3 id=&#34;жанр-и-синопсис&#34;&gt;Жанр и синопсис&lt;/h3&gt;&#xA;&lt;p&gt;Главный герой — &lt;strong&gt;Егерь Еремей&lt;/strong&gt;. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.&lt;/p&gt;</description>
     </item>
   </channel>
