@@ -1,33 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Unity on Forest Ranger</title>
-    <link>http://localhost:1313/tags/unity/</link>
-    <description>Recent content in Unity on Forest Ranger</description>
+    <title>Resources on Forest Ranger</title>
+    <link>http://localhost:1313/tags/resources/</link>
+    <description>Recent content in Resources on Forest Ranger</description>
     <generator>Hugo</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Fri, 15 May 2026 01:15:05 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/unity/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Setup Project</title>
-      <link>http://localhost:1313/posts/setup-project/</link>
-      <pubDate>Fri, 15 May 2026 01:15:05 +0300</pubDate>
-      <guid>http://localhost:1313/posts/setup-project/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Fri, 15 May 2026 01:14:45 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ресурсы и полезные материалы</title>
       <link>http://localhost:1313/resources/</link>
       <pubDate>Fri, 15 May 2026 01:14:45 +0300</pubDate>
       <guid>http://localhost:1313/resources/</guid>
       <description>&lt;h1 id=&#34;ресурсы-проекта-forest-ranger&#34;&gt;Ресурсы проекта Forest Ranger&lt;/h1&gt;&#xA;&lt;p&gt;На этой странице собраны все ключевые материалы, связанные с разработкой игры: от исходного кода до документации используемых фреймворков.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-основные-ссылки&#34;&gt;📂 Основные ссылки&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/NoPosh/ForestRangerGame.git&#34;&gt;GitHub Репозиторий&lt;/a&gt;&lt;/strong&gt; — основной исходный код (Unity Project).&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://t.me/your_link&#34;&gt;Telegram-канал «Pochti Singleton»&lt;/a&gt;&lt;/strong&gt; — блог о ходе разработки и технических инсайтах проекта.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-технологический-стек-architecture--tools&#34;&gt;🛠 Технологический стек (Architecture &amp;amp; Tools)&lt;/h2&gt;&#xA;&lt;p&gt;Мы используем современный промышленный стек для Unity, который позволяет строить масштабируемую и производительную архитектуру.&lt;/p&gt;&#xA;&lt;h3 id=&#34;-dependency-injection--architecture&#34;&gt;💉 Dependency Injection &amp;amp; Architecture&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Инструмент&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Описание&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Ссылка&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Extenject (Zenject)&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Фреймворк для реализации паттерна DI. Обеспечивает слабую связанность систем.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/svermeulen/Extenject&#34;&gt;Документация&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;-async--reactive&#34;&gt;⚡ Async &amp;amp; Reactive&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Инструмент&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Описание&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Ссылка&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;R3 (Reactive Extensions)&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Основа событийной модели игры. Позволяет элегантно обрабатывать ввод и логику мира.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/Cysharp/R3&#34;&gt;GitHub R3&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;UniTask&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Оптимизированная библиотека для работы с асинхронностью без лишних аллокаций.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://github.com/Cysharp/UniTask&#34;&gt;GitHub UniTask&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h3 id=&#34;-visual--tweening&#34;&gt;🎨 Visual &amp;amp; Tweening&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Инструмент&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Описание&lt;/th&gt;&#xA;          &lt;th style=&#34;text-align: left&#34;&gt;Ссылка&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;DOTween&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;Движок анимаций. Используется для UI, переходов и процедурного движения объектов.&lt;/td&gt;&#xA;          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;http://dotween.demigiant.com/&#34;&gt;Официальный сайт&lt;/a&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;-рекомендуемые-материалы&#34;&gt;📚 Рекомендуемые материалы&lt;/h2&gt;&#xA;&lt;p&gt;Для глубокого понимания архитектуры нашего проекта рекомендуем ознакомиться со следующими ресурсами:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>О проекте</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 15 May 2026 01:14:01 +0300</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;forest-ranger-стелс-приключение-в-сердце-тайги&#34;&gt;Forest Ranger: Стелс-приключение в сердце тайги&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Forest Ranger&lt;/strong&gt; — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/hero2.png&#34; alt=&#34;Атмосфера игры&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Погружение в суровую природу северных лесов&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;сюжет-и-мир-игры&#34;&gt;Сюжет и мир игры&lt;/h2&gt;&#xA;&lt;h3 id=&#34;жанр-и-синопсис&#34;&gt;Жанр и синопсис&lt;/h3&gt;&#xA;&lt;p&gt;Главный герой — &lt;strong&gt;Егерь Еремей&lt;/strong&gt;. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

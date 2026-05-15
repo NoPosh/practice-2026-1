@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ForestRanger on Forest Ranger</title>
+    <link>http://localhost:1313/tags/forestranger/</link>
+    <description>Recent content in ForestRanger on Forest Ranger</description>
+    <generator>Hugo</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Fri, 15 May 2026 01:14:01 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/forestranger/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>О проекте</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 15 May 2026 01:14:01 +0300</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h1 id=&#34;forest-ranger-стелс-приключение-в-сердце-тайги&#34;&gt;Forest Ranger: Стелс-приключение в сердце тайги&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Forest Ranger&lt;/strong&gt; — это мобильное стелс-приключение с элементами детектива. Игра ориентирована на взрослую аудиторию, которая ценит глубокую атмосферу, сильный сюжет и моральный выбор.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/img/hero2.png&#34; alt=&#34;Атмосфера игры&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Погружение в суровую природу северных лесов&lt;/em&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;сюжет-и-мир-игры&#34;&gt;Сюжет и мир игры&lt;/h2&gt;&#xA;&lt;h3 id=&#34;жанр-и-синопсис&#34;&gt;Жанр и синопсис&lt;/h3&gt;&#xA;&lt;p&gt;Главный герой — &lt;strong&gt;Егерь Еремей&lt;/strong&gt;. Его мотивация — исполнение последней воли отца, завещавшего ему надзор за заповедником. Еремей, обладающий «кусачим» характером и острым слухом (подобно красному волку), стремится найти покой в природе, вдали от людей.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
